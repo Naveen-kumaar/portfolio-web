@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins"sans-serif;
+    background-color:black;
+    color:white;
+}
+/* navbar */
+
+.nav-item .nav-link {
+    margin: 10px 10px;
+    font-weight:600;
+    padding: 5px;
+    font-size: larger;
+}
+.navbar-brand {
+    margin: 10px 10px;
+    font-family: Righteous;
+    font-size: larger;
+    font-weight: normal;
+}
+.nav-item a{
+    color:black;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: aqua !important;
+    border-bottom: 1px solid aqua;
+}
+.nav-item a:active {
+    color: aqua !important;
+    
+}
+
+/*home section */
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home p{
+    font-size: larger !important;
+    font-weight: 400;
+}
+
+span{
+    color:aqua;
+} 
+
+.btn {
+    background-color: black;
+    border: 2px  solid aqua !important;
+    color: aqua !important;
+}
+.btn:hover {
+    background-color:aqua !important;
+    color: black !important;
+}
+/* home */
+#home h1 {
+    font-size: 4.4rem;
+}
+.sml-heading {
+    font-size: 3 rem;
+}
+/* about section */
+.social i {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+}
+.social a :hover {
+    color:aqua
+}
+
+/* skills section */
+.profile-description{
+    padding: 5px;
+}
+/* .profile-description .descrip1{
+    border: 1px solid aqua;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: larger;
+    border-radius: 8px;
+
+} */
+.progress .prograss-bar{
+    background-color: aqua;
+}
+.skill-div span{
+color:white;
+font-weight: 500;
+font-size: larger;
+
+}
+#Skills {
+    padding: 15px;
+}
+
+#Skills .container {
+    padding: 25px;
+    box-shadow: 0 10px 15px aquamarine;
+}
+#About .container .about {
+    padding: 25px;
+    box-shadow: 0 10px 15px aquamarine;
+}
+.card {
+    border:none;
+    outline: none;
+}
+
+.card-body {
+    box-shadow: 0 0px 20px aqua; 
+    border-radius: 8px;
+}
+form {
+    box-shadow: 0 0 20px color-mix( in srgb, aqua,transparent 80%);
+}
+footer {
+    padding: 10px;
+}
+.socialmedia {
+    font-size: 40px;
+    padding-left: 5px;
+
+}
+.socialmedia i {
+    cursor: pointer;
+    padding: 10px;
+}
+.socialmedia a :hover {
+    color:aqua
+}
+p{
+    font-size: larger;
+}
+/* mobile */
+@media(max-width: 600px){
+    p{
+        font-size: small;
+    }
+    #home{
+        margin-top: 70px;
+    }
+    #home h1{
+        font-size: 2.5rem;
+    }
+    
+    .skill-div span{
+        font-weight: 400;
+        font-size: medium;
+    }
+    .social i {
+        cursor: pointer;
+        padding: 8px;
+        font-size: 20px;
+    }
+    #Skills h3{
+        font-size: 1.2rem;
+    }
+    #Skills h1{
+        font-size:1.5rem ;
+    }
+    .socialmedia {
+        font-size: 25px;
+        padding-left: 5px;
+    
+    }
+    .socialmedia i {
+        cursor: pointer;
+        padding: 8px 0px 0px 8px;
+    }
+    #contact .container{
+        padding:2px ;
+    }
+    #contact-form .rounded {
+        padding: 3px;
+    }
+    #contact-form .form-control {
+        padding: 3px;
+    }
+
+}
