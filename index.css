@@ -54,15 +54,27 @@ span{
     color:aqua;
 } 
 
-.btn {
+.btn a{
     background-color: black;
     border: 2px  solid aqua !important;
     color: aqua !important;
+    transition: all 0.2s;
+    text-decoration: none !important;
+    padding: 8px;
+    border-radius: 8px;
 }
-.btn:hover {
+
+
+.btn a:hover{
     background-color:aqua !important;
     color: black !important;
 }
+
+/* .btn:hover {
+    background-color:aqua !important;
+    color: black !important;
+} */
+
 /* home */
 #home h1 {
     font-size: 4.4rem;
@@ -192,3 +204,21 @@ p{
     }
 
 }
+
+ 
+.pbtn a{
+    background-color: black;
+    border: 2px  solid aqua !important;
+    color: aqua !important;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 3px 7px 3px 7px;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+.pbtn a:hover {
+    background-color:aqua !important;
+    color: black !important;
+    border: none;
+} 
+
