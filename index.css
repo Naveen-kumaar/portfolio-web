@@ -54,18 +54,17 @@ span{
     color:aqua;
 } 
 
-.btn a{
-    background-color: black;
-    border: 2px  solid aqua !important;
+.bttn a{
+    border: 2px solid aqua;
     color: aqua !important;
     transition: all 0.2s;
+    padding: 8px 10px;
     text-decoration: none !important;
-    padding: 8px;
-    border-radius: 8px;
+    border-radius: 8px
 }
 
 
-.btn a:hover{
+.bttn a:hover{
     background-color:aqua !important;
     color: black !important;
 }
@@ -221,9 +220,26 @@ p{
     color: black !important;
     border: none;
 } 
+
 .card{
     transition: all 0.5s;
 }
 .card :hover{
     scale: 1.1;
 }
+
+.btn{
+    background-color: black;
+    border: 2px  solid aqua !important;
+    color: aqua !important;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 3px 7px 3px 7px;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+.btn:hover{
+    background-color:aqua !important;
+    color: black !important;
+    border: none;
+} 
