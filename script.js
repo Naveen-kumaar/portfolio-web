@@ -12,7 +12,7 @@ document.getElementById('contact-form').addEventListener('submit',(e)=>{
     }
     
     emailjs.send("service_loxitnt","template_mm4640b",params).then(()=>{
-        mss=document.querySelector('.thank-you-msg').computedStyleMap.display ="block"
+        document.querySelector('.thank-you-msg').computedStyleMap.display ="block"
         document.getElementById('full_name').value="",
         document.getElementById('email_id').value="",
         document.getElementById('message').value="",
